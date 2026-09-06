@@ -4,7 +4,7 @@ A Natural Language Processing project implementing the core components of a BERT
 
 ## Overview
 
-This project is based on an NLP assignment with three main tasks:
+This project is based on an NLP with three main tasks:
 
 1. Implement a BERT-style encoder from scratch.
 2. Preprocess the Fakeddit dataset for fake-news classification.
@@ -223,14 +223,6 @@ bert-implementation/
 5. For Task 2, update the `FILE_PATH` variable to point to your local Fakeddit `all_comments.tsv` file.
 6. Run the preprocessing pipeline.
 7. Implement and run the Task 3 fine-tuning section if required.
-
-## Important Note
-
-The Fakeddit preprocessing code currently contains a local Windows file path:
-
-`D:\NLP\assignment 3\all_comments.tsv`
-
-This path must be changed to the location of `all_comments.tsv` on the system where the notebook is executed.
 
 ## Future Improvements
 
